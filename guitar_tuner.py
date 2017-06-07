@@ -105,10 +105,8 @@ for i in range(0, num_blocks):
 
         all_peaks.clear()
 
-
     line.set_ydata(abs(X))                               
     plt.draw()
-
 
 stream.stop_stream()
 stream.close()
